@@ -15,4 +15,17 @@ public class BankAccount {
   public int getID() {
     return accountID;
   }
+
+  public void setPassword(String password) {
+    this.password = password;
+  }
+  
+  public boolean deposit(double amount) {
+    if(balance >= 0) {
+      balance += amount;
+      return true;
+    } else {
+      return false;
+    }
+  }
 }
