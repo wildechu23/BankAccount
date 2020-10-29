@@ -8,7 +8,7 @@ public class Tester {
     System.out.println(bankAccount.withdraw(2));
 
     System.out.println(bankAccount.toString());
-    System.out.println(bankAccount.getID());
+    System.out.println(bankAccount.getAccountID());
     System.out.println(bankAccount.getBalance());
     bankAccount.setPassword("goodbyepotato");
   }
