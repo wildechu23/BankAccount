@@ -49,7 +49,7 @@ public class BankAccount {
 
   public boolean transferTo(BankAccount other, double amount, String password) {
     if(authenticate(password) && this.withdraw(amount)) {
-      if(other.deposit(amount){
+      if(other.deposit(amount)){
         return true;
       } else {
         return false; // break
